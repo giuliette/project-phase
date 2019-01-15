@@ -1,3 +1,3 @@
-# project phase repository @ Green Fox Academy
+# project phase repository 
 
 ## week 0 - REACT basics
