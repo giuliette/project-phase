@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import BuyAcorn from '../redux/containers/buyacorn';
 import DisplayAcorn from '../redux/containers/display';
 import EatAcorn from '../redux/containers/eatacorn';
+
 
 const App = () => (
   <main>
