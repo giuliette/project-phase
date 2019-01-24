@@ -6,9 +6,9 @@ import States from './WithStates';
 import Home from './Home';
 
 class Router extends Component {
-  renderRouter = () => (
+  render = () => (
     <BrowserRouter>
-      <div>
+      <div className='App'>
         <NavBar />
         <Route exact path='/' component={Home}/>
         <Route path='/simple/states' component={States} />
@@ -17,3 +17,5 @@ class Router extends Component {
     </BrowserRouter>
   )
 }
+
+export default Router;

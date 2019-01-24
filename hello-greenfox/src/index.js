@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import clickStore from '../store';
 import { Provider } from 'react-redux';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Router from './Router';
 
 ReactDOM.render(
   <Provider store={clickStore}>
-  <App />
+    <Router />
   </Provider>,
   document.getElementById('root'),
 );

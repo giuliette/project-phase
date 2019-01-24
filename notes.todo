@@ -1,0 +1,31 @@
+# SimpleGoldenAcornApp extend with Redux
+
+✔ add `redux`, `react-redux` to the dependencies @done(19-01-17 14:10)
+✔ add `redux-devtools-extension` to the development dependencies @done(19-01-17 14:10)
+☐ create two action creators -- *[action creators](https://redux.js.org/basics/actions#action-creators)*
+  ☐ one for eating while the other for buying acorns
+  actions.js
+☐ create a reducer to handle the actions &mdash; *[reducers](https://redux.js.org/basics/reducers)*
+  ☐ **for practice purposes** combine the reducer &mdash; *[src/reducers/index.js](assets/simple-golden-acorn-app/src/reducers/index.js)*
+☐ create the store with [Redux DevTools Extension's helper](https://www.npmjs.com/package/redux-devtools-extension)
+  &mdash; *[store](https://redux.js.org/basics/store)*, *[src/store.js](assets/simple-golden-acorn-app/src/store.js)*
+  ☐ install [Redux DevTools Extension](http://extension.remotedev.io/)
+☐ create three container components &mdash;
+  *[container components](https://redux.js.org/basics/usage-with-react#presentational-and-container-components)*
+  ☐ **BuyAcorn** should use the previously created *Button* component
+    &mdash; *[src/containers/BuyAcorn/index.js](assets/simple-golden-acorn-app/src/containers/BuyAcorn/index.js)*
+  ☐ **EatAcorn** should use the previously created *Button* component
+  ☐ **DisplayAcorn** should use the previously created *Display* component
+☐ use the container components to build the new application in a
+  functional component &mdash; *[src/App.js](assets/simple-golden-acorn-app/src/App.js)*
+☐ pass the store to the application &mdash; *[passing the store](https://redux.js.org/basics/usage-with-react#passing-the-store)*
+☐ as a bonus task make the arrow keys work
+
+Evi
+☐ ^ es breaking change
+https://reactjs.org/docs/hooks-intro.html
+
+☐ higher order function
+
+MVC model
+

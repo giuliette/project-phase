@@ -1,8 +1,4 @@
-const initialState = {
-  clicks: 0,
-}
-
-const acorn = (state = initialState, action) => {
+const acorn = (state = {clicks: 0}, action) => {
   switch (action.type) {
     case 'INCREASE_AMOUNT':
       return {
